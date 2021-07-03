@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="test"></div>
+  <script src="../js/babel.js"></script>
+  <script src="../js/react.js"></script>
+  <script src="../js/react-dom.js"></script>
+  <script src="../js/prop-types.js"></script>
+  <script type="text/babel">
+    class Demo extends React.Component{
+      fn1 = ()=>{
+        console.log(this);
+        alert(this.refs.input1.value)
+      }
+    render(){
+      return(
+        <input ref="input1" type="text" onBlur={this.fn1}/>
+      )
+    }
+  }
+  ReactDOM.render(<Demo/>,document.getElementById('test'))
+  
+  </script>
+</body>
+
+</html>

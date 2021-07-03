@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>class的基本知识复习</title>
+</head>
+
+<body>
+  <script>
+    class Person {
+      // 构造器函数，每个实例都会有的属性
+      constructor(name, age) {
+        this.name = name
+        this.age = age
+      }
+      //一般方法，相当于es5中的原型对象上的方法
+      speak() {
+        console.log(`我叫${this.name},我的年龄是${this.age}`);
+      }
+      //静态方法和属性，static关键字标识
+      static sex = 'lady-boy'
+      static test() {
+        console.log('我是类的静态方法，类名直接调用');
+      }
+    }
+
+    // Student类继承Person类
+    class Student extends Person {
+      constructor(name, age, grade) {
+        super(name, age) /*super必须放在前面*/
+        this.grade = grade
+      }
+      // 重写父类的方法
+      speak() {
+        console.log(`我叫${this.name},我的年龄是${this.age},我在读的年级是${this.grade}年级`);
+      }
+    }
+    const p1 = new Person('sah', 18)
+    console.log(p1);
+    console.log(Person.test());
+    const s1 = new Student('sah2', 18, 10)
+    console.log(s1)
+
+
+    class Car {
+      constructor(name, price) {
+        this.name = name
+        this.name = price
+        this.wheel = 4
+      }
+      //类中可以直接写赋值语句，他的含义是：给类的实例对象添加一个属性和值
+      maker = '一汽大众'
+    }
+    let c1 = new Car('辉腾', 200)
+    console.log(c1);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+.content {
+  ul {
+    li {
+      a {
+          text-align: center;
+          background: #1b6d85;
+          font-size: 30px;
+      }
+      input{
+        border:1px solid red;
+      }
+    }
+  }
+}
+
+
+
+.triangle(@_,@my_color,@my_width){
+  width:0px;
+  height: 0px;
+  border: @my_width solid transparent ;
+}
+.triangle(up,@my_color,@my_width){
+  border-bottom: @my_width solid @my_color;
+}
+.triangle(down,@my_color,@my_width){
+  border-top: @my_width solid @my_color;
+}
+.triangle(left,@my_color,@my_width){
+  border-right: @my_width solid @my_color;
+}
+.triangle(right,@my_color,@my_width){
+  border-left: @my_width solid @my_color;
+}
+
+.sjx{
+  .triangle(up,red,100px)
+}
+
+
+//媒体查询
+.div1{
+  background: #1b6d85;
+  @media screen{
+    border:1px solid #1b6d85 ;
+    @media (min-width: 768px){
+      background: #2e6da4;
+    }
+    .son{
+      color:#444444;
+    }
+  }
+}
+
+
+//&
+
+a{
+  color:#f40;
+  &:hover{
+    color:#444444;
+  }
+}
+
+
+
+//条件混合
+
+//@width:50px;
+.compareWidth(@width) when (@width>=100px) and(@width=200px ){
+  padding: @width;
+}
+
+.div2{
+  .compareWidth(100px);
+  .loop(5)
+}
+
+
+.loop(@n) when (@n>0){
+  .loop(@n - 1);
+  width: 10px * @n;
+}
+
+
+@msg:1561;
+
+.my_class_@{msg}{
+  width:500px;
+}
+
+
+.div3{
+  background+: #444444;
+  background+: 10px 10px
+}
+
+
+//extend继承
+
+.a{
+  font-size: 15px;
+}
+
+.b{
+  color: #444444;
+  &:extend(.a);
+}

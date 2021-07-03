@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <script>
+    let arr1 = [1, 2, 3, 4, 5]
+    let arr2 = [6, 7, 8, 9, 10]
+    console.log(...arr1); //展开一个数组
+    let arr3 = [...arr1, ...arr2] //先展开
+    console.log(arr3);
+    let obj = {
+      a: 1,
+      v: 2
+    }
+    //...运算符不能直接去展开对象，因为对象中没有 iterator结构
+    console.log({
+      ...obj
+    });
+
+    function sum(...number) {
+
+    }
+  </script>
+</body>
+
+</html>

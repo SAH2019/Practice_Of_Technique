@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>State</title>
+</head>
+
+<body>
+  <div id="test">
+  div.ds
+  </div>
+  <script src="../js/react.js"></script>
+  <script src="../js/react-dom.js"></script>
+  <script src="../js/babel.js"></script>
+  <script type="text/babel">
+    class Weather extends React.Component{
+      // 初次渲染会调用constructor，更新state的时候不会重新调用
+      constructor(props){
+        super(props)
+        this.state = {
+          isHot : true,
+          isWind:'威风'
+        }
+        // 此处是在将事件处理函数绑定在实例对象上，而不是原型对象
+        this.changeWeather = this.changeWeather.bind(this)
+      };
+      // 初次渲染和每一次state更新都会调用render
+      render(){
+        console.log(this);
+        return (<h2 onClick={this.changeWeather}>
+        
+        今天天气{this.state.isHot? '炎热':'寒冷'}</h2>)
+      };
+      changeWeather(){
+        // this.state.isHot=!this.state.isHot;
+        this.setState({isHot:!this.state.isHot}) 
+      }
+    }
+    ReactDOM.render(<Weather/>,document.getElementById('test'))
+  </script>
+</body>
+
+</html>

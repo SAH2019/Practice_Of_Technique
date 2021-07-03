@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hello_react</title>
+</head>
+
+<body>
+  <div id="test"></div>
+  <script type="text/javascript" src="../js/react.js"></script>
+  <script type="text/javascript" src="../js/react-dom.js"></script>
+  <script type="text/javascript" src="../js/babel.js"></script>
+  <script type="text/babel">
+    // 1. 创建函数式组件
+    function Demo(){
+      return <h1>我是函数式组件定义的组件(属于简单组件)</h1>
+      // 函数中的this的指向的是undefined，也就是无指向
+    }
+    // 2.渲染组件到页面
+    ReactDOM.render(<Demo/>,document.getElementById("test"))
+    /*
+      执行了ReactDOM.render(<Demo/>,document.getElementById('test'))   之后发生了什么？
+        1.Rract解析组件标签，找到了MyComponent组件。
+        2.发现组件是使用函数定义的，随后调用该函数，将返回的虚拟dom转为真实的dom，渲染在页面中。
+    */
+  </script>
+</body>
+
+</html>

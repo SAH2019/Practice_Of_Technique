@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="test"></div>
+  <script src="../js/react.js"></script>
+  <script src="../js/react-dom.js"></script>
+  <script src="../js/prop-types.js"></script>
+  <script src="../js/babel.js"></script>
+  <script type="text/babel">
+    class Person extends React.Component{
+        state = {test:"react"}
+        static propTypes = {
+          //name:React.PropTypes.string  //旧版本的写法 16版本以前的
+          name:PropTypes.string  //新的版本的写法
+        }
+        static defaultProps = {
+          name:'ssss'
+        }
+        render(){
+          console.log(this);
+          return (
+            <ul>
+              <li>{this.props.name}</li>
+              <li>{this.props.sex}</li>
+              <li>{this.props.age}</li>
+            </ul>
+          )
+        }
+}
+
+  ReactDOM.render(<Person  age={20} sex='nan'/>,document.getElementById('test'))
+</script>
+
+</body>
+
+</html>

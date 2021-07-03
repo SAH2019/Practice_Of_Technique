@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="test"></div>
+  <script src="../js/react.js"></script>
+  <script src="../js/react-dom.js"></script>
+  <script src="../js/babel.js"></script>
+  <script type="text/babel">
+    const ul_data = {name:'sah',age:15,sex:'nan'}
+    class Person extends React.Component{
+    render(){
+      console.log(this);
+      return( 
+        <ul>
+          <li>姓名：{this.props.name}</li>
+          <li>年龄：{this.props.age}</li>
+          <li>性别：{this.props.sex}</li>
+        </ul>
+      )
+    }
+  }
+  
+  // ReactDOM.render(<Person ul_data = {ul_data}/>,document.getElementById('test'))
+  //...运算符不能直接去展开对象，因为对象中没有 iterator结构，但是在react中做了修改，可以在对象中进行直接的展开
+  ReactDOM.render(<Person {...ul_data}/>,document.getElementById('test'))
+  ReactDOM.render(<Person name='sss' age={18} sex='nan'/>,document.getElementById('test'))
+  </script>
+</body>
+
+</html>

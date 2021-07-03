@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+
+  <script>
+    class Person {
+      constructor(name, age) {
+        this.name = name
+        this.age = age
+      }
+      speak() {
+        console.log(this);
+      }
+    }
+
+    const p1 = new Person('sah', 18)
+    console.log(p1);
+    p1.speak()
+    //与上面的语句的speak（）方法调用者是不同的
+    const x = p1.speak;
+    x()
+  </script>
+</body>
+
+</html>

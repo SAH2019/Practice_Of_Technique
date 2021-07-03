@@ -1,0 +1,56 @@
+.content ul li a {
+  text-align: center;
+  background: #1b6d85;
+  font-size: 30px;
+}
+.content ul li input {
+  border: 1px solid red;
+}
+.sjx {
+  width: 0px;
+  height: 0px;
+  border: 100px solid transparent;
+  border-bottom: 100px solid red;
+}
+.div1 {
+  background: #1b6d85;
+}
+@media screen {
+  .div1 {
+    border: 1px solid #1b6d85;
+  }
+  .div1 .son {
+    color: #444444;
+  }
+}
+@media screen and (min-width: 768px) {
+  .div1 {
+    background: #2e6da4;
+  }
+}
+a {
+  color: #f40;
+}
+a:hover {
+  color: #444444;
+}
+.div2 {
+  width: 10px;
+  width: 20px;
+  width: 30px;
+  width: 40px;
+  width: 50px;
+}
+.my_class_1561 {
+  width: 500px;
+}
+.div3 {
+  background: #444444, 10px 10px;
+}
+.a,
+.b {
+  font-size: 15px;
+}
+.b {
+  color: #444444;
+}

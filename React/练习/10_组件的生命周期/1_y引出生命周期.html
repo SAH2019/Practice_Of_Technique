@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="test"></div>
+  <script src="../js/babel.js"></script>
+  <script src="../js/react.js"></script>
+  <script src="../js/react-dom.js"></script>
+  <script src="../js/prop-types.js"></script>
+  <script type="text/babel">
+    class Life extends React.Component{
+    state = {opacity:1}
+    dead = ()=>{
+        ReactDOM.unmountComponentAtNode(document.getElementById('test'))
+      }
+      // 卸载之前
+    componentWillUnmount(){
+      clearInterval(this.timer)
+    }
+    // 组件挂载完毕
+    componentDidMount(){  
+      this.timer = setInterval(() => {
+        let {opacity} = this.state
+        opacity -= 0.1
+        if(opacity<=0){
+          opacity = 1
+        }
+        this.setState({opacity:opacity})
+      }, 200);
+    }
+    render(){
+      console.log('render');
+      return (
+        <div>
+          <h1 style = {{opacity:this.state.opacity}}>React的生命周期</h1>
+          <button onClick = {this.dead}>我要消亡</button>
+        </div>
+      )
+    }
+  }
+  ReactDOM.render(<Life/>,document.getElementById('test'))
+  </script>
+
+</body>
+
+</html>

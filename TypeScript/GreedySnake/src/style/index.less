@@ -1,0 +1,69 @@
+@bg-color: rgba(10, 235, 160, 0.5);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font: bold 20px "Courier";
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 360px;
+  height: 420px;
+  background-color: @bg-color;
+  margin: 100px auto;
+  border-radius: 20px;
+  border: 10px solid black;
+  
+  #stage{
+    width: 304px;
+    height: 304px;
+    border: 2px solid black;
+    position: relative;
+
+    #snake{
+      &>div{
+        width:10px;
+        height: 10px;
+        background-color: #000000;
+        border: 1px solid @bg-color;
+        position: absolute;
+      }
+      &>div:first-child{
+        background-color: rgb(149, 43, 199);
+      }
+    }
+
+    #food{
+      width:10px;
+      height: 10px;
+      // background-color: #f40;
+      // border: 1px solid @bg-color;
+      position: absolute; 
+      left: 40px;
+      top: 50px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-content: space-between;
+
+      &>div{
+        width: 4px;
+        height: 4px;
+        background-color: #000;
+        transform: rotate(45deg);
+      }
+    }
+  }
+  #score-panel{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+}

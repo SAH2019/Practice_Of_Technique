@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <button id="btn1">按钮1</button>
+  <button id="btn2">按钮2</button>
+  <button onclick="Test()">按钮3</button>
+  <script>
+    btn1.addEventListener('click', Test)
+    btn2.onclick = Test;
+
+    function Test(e) {
+      console.log(e);
+    }
+  </script>
+</body>
+
+</html>

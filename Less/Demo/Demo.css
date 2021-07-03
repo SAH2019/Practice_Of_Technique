@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+.page {
+  width: 1090px;
+  height: 382px;
+  margin: 0 auto;
+}
+.page .box {
+  width: 267px;
+  height: 382px;
+  float: left;
+  margin-right: 7.33333333px;
+  background: #ffffff;
+}
+.page .box img {
+  width: 100%;
+}
+.page .box h3 {
+  font-size: 14px;
+  color: #262626;
+  padding: 0 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.page .box p {
+  padding: 0 10px;
+  color: #535353;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.page .box .process {
+  width: 80px;
+  height: 10px;
+  border: 1px solid #f0b9ba;
+  border-radius: 8px 8px 8px 8px;
+  margin: 10px;
+  float: left;
+}
+.page .box .process .current_process {
+  border-radius: 8px 0 0 8px;
+  background: #ffc7b7;
+  width: 42.66666667px;
+  height: 100%;
+}
+.page .box .rest {
+  float: left;
+  color: #d60523;
+  margin: 6px 0 ;
+}
+.page .box .footer {
+  box-sizing: border-box;
+  display: flex;
+  border: 2px solid #f0b9ba;
+  height: 40px;
+}
+.page .box .footer .left {
+  box-sizing: border-box;
+  padding-left: 5px;
+  background: #d60523;
+  color: #ffffff;
+  height: 100%;
+  width: 70%;
+  line-height: 36px;
+}
+.page .box .footer .left .price {
+  font-size: 20px;
+  font-weight: 700;
+}
+.page .box .footer .right {
+  width: 30%;
+  color: #d60523;
+  text-align: center;
+  line-height: 36px;
+}
+.margin0,
+.page .box h3,
+.page .box p {
+  margin: 0;
+}
+.font,
+.page .box p,
+.page .box .rest {
+  font-size: 14px;
+}
+.clear {
+  clear: both;
+}
