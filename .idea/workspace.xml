@@ -17,6 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dd1c3cd-baa1-48d0-aed2-84fabcaa1410" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git/Git常用命令总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/Git/Git常用命令总结.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/my_react_demo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/.gitignore" beforeDir="false" />
@@ -145,7 +146,7 @@
       <workItem from="1625280308907" duration="21312000" />
       <workItem from="1625377526520" duration="1867000" />
       <workItem from="1625379499317" duration="2097000" />
-      <workItem from="1625455150750" duration="1526000" />
+      <workItem from="1625455150750" duration="2742000" />
     </task>
     <servers />
   </component>

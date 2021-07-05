@@ -44,10 +44,12 @@
 	            删除之后要commit	             
 ###	14. git remote add origin https://github.com/xxxxx/a.git 
 	            关联一个远程库
+	            origin 是一个别名，可以是任意的字符串
 ###	15. git remote remove origin
 	            移除关联的仓库
 ###	15. git push -u（第一次要用-u，以后不用）origin master
-	            把当前master分支推送到远程库
+	            把当前master分支推送到远程库 
+	            
 ###	16. git clone https://github.com/xxxxx   
 	            从远程库中克隆
 ###	17. git checkout -b xxx
