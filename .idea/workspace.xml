@@ -17,7 +17,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dd1c3cd-baa1-48d0-aed2-84fabcaa1410" name="默认的" comment="增加了antd的笔记">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +85,7 @@
       <workItem from="1625280308907" duration="21312000" />
       <workItem from="1625377526520" duration="1867000" />
       <workItem from="1625379499317" duration="2097000" />
-      <workItem from="1625455150750" duration="6460000" />
+      <workItem from="1625455150750" duration="7644000" />
     </task>
     <task id="LOCAL-00001" summary="增加了antd的笔记">
       <created>1625467046909</created>
