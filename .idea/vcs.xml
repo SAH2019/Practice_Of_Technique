@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/React/练习/my_react_demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/React/练习/react_extension" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/React/练习/redux_demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/React/练习/tidolist" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7dd1c3cd-baa1-48d0-aed2-84fabcaa1410" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/Git/Git常用命令总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/Git/Git常用命令总结.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/my_react_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/my_react_demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/my_react_demo/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/my_react_demo/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/my_react_demo/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/my_react_demo/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/my_react_demo/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/react_extension" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/react_extension/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/react_extension/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/react_extension/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/react_extension/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/redux_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/redux_demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/redux_demo/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/redux_demo/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/redux_demo/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/redux_demo/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/tidolist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/tidolist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/tidolist/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/tidolist/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/tidolist/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/tidolist/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/练习/tidolist/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/React/练习/tidolist/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectId" id="1uQAuAfXpoHcSXUuDYCS3OP0G03" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Git" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="E:\桌面\CVTE前端技术\TypeScript\GreedySnake\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\桌面\CVTE前端技术\Git" />
+      <recent name="E:\桌面\CVTE前端技术\Less\Demo\img" />
+      <recent name="E:\桌面\CVTE前端技术\TypeScript\GreedySnake\src\moduls" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dd1c3cd-baa1-48d0-aed2-84fabcaa1410" name="默认的" comment="" />
+      <created>1624587658864</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624587658864</updated>
+      <workItem from="1624587659998" duration="245000" />
+      <workItem from="1624588227965" duration="120000" />
+      <workItem from="1624588387728" duration="2768000" />
+      <workItem from="1624599187345" duration="193000" />
+      <workItem from="1624599402298" duration="4717000" />
+      <workItem from="1624606728646" duration="6801000" />
+      <workItem from="1624795234212" duration="3878000" />
+      <workItem from="1625198285818" duration="21332000" />
+      <workItem from="1625280308907" duration="21312000" />
+      <workItem from="1625377526520" duration="1867000" />
+      <workItem from="1625379499317" duration="2097000" />
+      <workItem from="1625455150750" duration="1526000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/TypeScript/test/03_type.js" />
+        <option value="$PROJECT_DIR$/TypeScript/test/02_basis.js" />
+        <option value="$PROJECT_DIR$/TypeScript/test/01_helloTS.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="665" y="332" key="#Notifications" timestamp="1625198679885">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="665" y="332" key="#Notifications/-1920.-102.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1625198679885" />
+    <state x="778" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624796087157">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="778" y="326" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-102.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1624796087157" />
+    <state x="671" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1624797339612">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="671" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/-1920.-102.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1624797339612" />
+    <state x="93" y="93" width="1862" height="926" key="DiffContextDialog" timestamp="1625199395547">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="93" y="93" width="1862" height="926" key="DiffContextDialog/-1920.-102.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1625199395547" />
+    <state x="752" y="252" key="FileChooserDialogImpl" timestamp="1624610452150">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="752" y="252" key="FileChooserDialogImpl/-1920.-102.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1624610452150" />
+    <state x="502" y="226" key="IDE.errors.dialog" timestamp="1624610333968">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="502" y="226" key="IDE.errors.dialog/-1920.-102.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1624610333968" />
+    <state x="717" y="46" width="1230" height="882" key="SettingsEditor" timestamp="1624610391730">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="717" y="46" width="1230" height="882" key="SettingsEditor/-1920.-102.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1624610391730" />
+    <state x="603" y="77" width="840" height="1034" key="search.everywhere.popup" timestamp="1624796244726">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="603" y="77" width="840" height="1034" key="search.everywhere.popup/-1920.-102.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1624796244726" />
+  </component>
+</project>
